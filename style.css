@@ -86,28 +86,30 @@ header span{
     background: #fff;
 }
 /* Story */
-#our-story{
+#our-story, .coffee-section{
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.img{
+.img, .img-2{
     width: 400px;
     height: 400px;
     background: url(https://images.pexels.com/photos/885021/pexels-photo-885021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-position: 0% 90%;
     background-size: cover;
     border-radius: 10%;
+    border-radius: 3%;
+    border: 1px solid rgba(245, 245, 245, 0.468);
 }
 .title-style{
     display: flex;
     align-items: center;
 }
-.title{
-    font-family: "Playfair Display", serif;
+.title, .title-two{
     font-size: 4rem;
+    font-family: "Playfair Display SC", serif;
     color: #fff;
     transform: translateX(-100px);
 }
@@ -117,11 +119,15 @@ header span{
     background: #fff;
     transform: translateX(-120px);
 }
-.section-content p{
+.section-content p, .content-section p{
     max-width: 500px;
     font-size: large;
     color: #fff;
     font-family: sans-serif;
     line-height: 25px;
     margin: 20px 0;
+}
+/* Coffee */
+.title-two{
+    transform: translateX(0px);
 }
