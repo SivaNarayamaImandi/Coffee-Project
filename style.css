@@ -86,7 +86,7 @@ header span{
     background: #fff;
 }
 /* Story */
-#our-story, .coffee-section{
+#our-story, .coffee-section, .cards{
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -130,4 +130,58 @@ header span{
 /* Coffee */
 .title-two{
     transform: translateX(0px);
+}
+/* Products */
+.products{
+    margin-top: 5%;
+}
+.title-three{
+    font-size: 4rem;
+    font-family: "Playfair Display SC", serif;
+    margin: 0 10rem 0 10rem;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgba(245, 245, 245, 0.468);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
+.img-one{
+    background: url(Images/1.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    background: url(Images/2.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    background: url(Images/3.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-title{
+    font-family: "Playfair Display SC", serif;
+    color: #fff;
+    margin-top: 1rem;
+}
+.card .items p{
+    color: #fff;
+    margin: 20px 0;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
 }
