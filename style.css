@@ -34,6 +34,17 @@ nav {
     padding-top: 15px;
 }
 
+.welcome{
+    font-family: "Playfair Display SC", serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.welcome:hover{
+    color: var(--a-bg-color);
+    cursor: none;
+}
+
 li {
     display: inline;
     list-style: none;
